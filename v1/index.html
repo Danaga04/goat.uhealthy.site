@@ -178,353 +178,344 @@
 
   <!-- Comments Section with White Background -->
   <div style="background-color: white; padding: 20px 0;">
-    <section class="comments py-4">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script>
-        $.get("https://ipinfo.io/json", function (response) {
-          $("#address").html(response.city);
-        }, "jsonp");
-      </script>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="fb-comments" style="margin-top: 5px;">
-              <div class="fb-comments-header">
-                <span>21 de 23.834 comentarios</span>
-              </div>
-              <div class="fb-comments-wrapper" id="2">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/Zq5MHX4g/h1.jpg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Juan Pérez</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">¡Excelente video! Probé la receta del bicarbonato y ya noto más firmeza. Gracias por explicarlo tan claro.</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>8</likes>
-                        <date>4 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="3">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/CKr6QJKK/h2.jpg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Carlos Ramírez</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Aquí en <span id="address" style="color:#000000;">Argentina</span> sólo hablan de este truco del bicarbonato</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>9</likes>
-                        <date>5 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="4">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/qRtZVntx/h3.jpg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Andrés Morales</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Lo explicas muy bien, seguí el paso a paso del video y ya veo mejoras. Esto ayuda mucho con la disfunción eréctil.</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>11</likes>
-                        <date>12 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="5">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/d1zNq1rP/h4.jpg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Carlos Castro</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Llevo 17 días haciendo este truco, yo me sorprendí,</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>15</likes>
-                        <date>19 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="6">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/J4CYvsRj/h5.jpg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Ricardo Díaz</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Video muy bien explicado y directo, sin rodeos. ¡Felicitaciones! </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>17</likes>
-                        <date>24 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="7">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/Z5VfWjpL/h6.jpg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Diego Torres</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Sufro de disfunción eréctil desde hace meses. Seguí el truco del bicarbonato del video y, en pocos días, ya sentí más firmeza y confianza. Hoy me siento mucho mejor y lo recomiendo a quien pase por lo mismo.</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>18</likes>
-                        <date>26 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fb-comments-wrapper" id="9">
-                <table class="fb-comments-comment">
-                  <tbody>
-                    <tr>
-                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/jj2MPNhY/h7.jpg"></td>
-                      <td>
-                        <font class="fb-comments-comment-name">
-                          <name>Luis Fernández</name>
-                        </font>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-text">Nunca pensé que un truco tan simple funcionara. Gracias al video y al bicarbonato ya tengo mejores erecciones y más confianza.</td>
-                    </tr>
-                    <tr>
-                      <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
-                        ·
-                        <reply>Responder</reply>
-                        ·
-                        <likes>22</likes>
-                        <date>39 min</date>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Ver mais comentários</button>
-              <div style="display:none" id="more">
-                <div class="fb-comments-wrapper">
-                  <table class="fb-comments-comment" id="10">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/W4yXn39F/h8.jpg"></td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Lucas Martínez</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Probé la receta del bicarbonato y en pocos días noté más firmeza. Este video es súper claro y fácil de seguir.</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>41</likes>
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper" id="11">
-                  <table class="fb-comments-comment">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/qvMwHnS6/m7.jpg"></td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Gabriel Torres</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Me encantó</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>40</likes>
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper" id="12">
-                  <table class="fb-comments-comment">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/7L5Nf4xx/thispersondoesnotexist.jpg"></td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>André López</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">Llevaba meses sin notar mejoras y este truco del bicarbonato me dio resultados en una semana. ¡Increíble!</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>47</likes>
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper" id="13">
-                  <table class="fb-comments-comment">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/yd9XyTgt/m9.jpg"></td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Fernando Ruiz</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">¿en verdad este método funciona?</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>50</likes>
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="fb-comments-wrapper">
-                  <table class="fb-comments-comment" id="14">
-                    <tbody>
-                      <tr>
-                        <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/d3j2zt99/thispersondoesnotexist.jpg"></td>
-                        <td>
-                          <font class="fb-comments-comment-name">
-                            <name>Márcio Rojas</name>
-                          </font>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-text">@FernandoRuiz - sii, me sentía inseguro hasta que vi el video y probé el bicarbonato. Ahora me siento mucho más confiado con mi pareja.</td>
-                      </tr>
-                      <tr>
-                        <td class="fb-comments-comment-actions">
-                          <like>Curtir</like>
-                          ·
-                          <reply>Responder</reply>
-                          ·
-                          <likes>66</likes>
-                          <date>1 h</date>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+    <section class="comments py-4">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+        $.get("https://ipinfo.io/json", function (response) {
+          $("#address").html(response.city);
+        }, "jsonp");
+      </script>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="fb-comments" style="margin-top: 5px;">
+              <div class="fb-comments-header">
+                <span>21 of 23,834 Comments</span>
+              </div>
+              <div class="fb-comments-wrapper" id="2">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/Zq5MHX4g/h1.jpg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Juan Pérez</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Excellent video! I tried the baking soda recipe and I'm already noticing more firmness. Thanks for explaining it so clearly.</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Like</like>
+                        ·
+                        <reply>Reply</reply>
+                        ·
+                        <likes>8</likes>
+                        <date>4 min</date>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="3">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/CKr6QJKK/h2.jpg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Carlos Ramírez</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Here in <span id="address" style="color:#000000;">Argentina</span> they are only talking about this baking soda trick</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Like</like>
+                        ·
+                        <reply>Reply</reply>
+                        ·
+                        <likes>9</likes>
+                        <date>5 min</date>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="4">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/qRtZVntx/h3.jpg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Andrés Morales</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">You explain it very well, I followed the step-by-step in the video and I'm already seeing improvements. This helps a lot with erectile dysfunction.</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Like</like>
+                        ·
+                        <reply>Reply</reply>
+                        ·
+                        <likes>11</likes>
+                        <date>12 min</date>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="5">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/d1zNq1rP/h4.jpg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Carlos Castro</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">I've been doing this trick for 17 days, I was surprised,</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Like</like>
+                        ·
+                        <reply>Reply</reply>
+                        ·
+                        <likes>15</likes>
+                        <date>19 min</date>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="6">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/J4CYvsRj/h5.jpg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Ricardo Díaz</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Very well explained and direct video, no beating around the bush. Congratulations!</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Like</like>
+                        ·
+                        <reply>Reply</reply>
+                        ·
+                        <likes>17</likes>
+                        <date>24 min</date>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="7">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/Z5VfWjpL/h6.jpg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Diego Torres</name>
+                        </font>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">I've been suffering from erectile dysfunction for months. I followed the baking soda trick from the video and, in a few days, I already felt more firmness and confidence. Today I feel much better and I recommend it to anyone going through the same thing.</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Like</like>
+                        ·
+                        <reply>Reply</reply>
+                        ·
+                        <likes>18</likes>
+                        <date>26 min</date>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="9">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/jj2MPNhY/h7.jpg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Luis Fernández</name>
+                        </font>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">I never thought such a simple trick would work. Thanks to the video and the baking soda, I already have better erections and more confidence.</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Like</like>
+                        ·
+                        <reply>Reply</reply>
+                        ·
+                        <likes>22</likes>
+                        <date>39 min</date>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <button class="fb-comments-loadmore" onclick="javascript:loadMore();">View more comments</button>
+              <div style="display:none" id="more">
+                <div class="fb-comments-wrapper">
+                  <table class="fb-comments-comment" id="10">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/W4yXn39F/h8.jpg"></td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Lucas Martínez</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">I tried the baking soda recipe and in a few days I noticed more firmness. This video is super clear and easy to follow.</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Like</like>
+                          ·
+                          <reply>Reply</reply>
+                          ·
+                          <likes>41</likes>
+                          <date>1 hr</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="11">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/qvMwHnS6/m7.jpg"></td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Gabriel Torres</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">I loved it</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Like</like>
+                          ·
+                          <reply>Reply</reply>
+                          ·
+                          <likes>40</likes>
+                          <date>1 hr</date>
+                        </td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="12">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/7L5Nf4xx/thispersondoesnotexist.jpg"></td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>André López</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">I had been months without noticing improvements and this baking soda trick gave me results in a week. Incredible!</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Like</like>
+                          ·
+                          <reply>Reply</reply>
+                          ·
+                          <likes>47</likes>
+                          <date>1 hr</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="13">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/yd9XyTgt/m9.jpg"></td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Fernando Ruiz</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">does this method really work?</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Like</like>
+                          ·
+                          <reply>Reply</reply>
+                          ·
+                          <likes>50</likes>
+                          <date>1 hr</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper">
+                  <table class="fb-comments-comment" id="14">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img src="https://i.postimg.cc/d3j2zt99/thispersondoesnotexist.jpg"></td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Márcio Rojas</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">@FernandoRuiz - yes, I felt insecure until I saw the video and tried the baking soda. Now I feel much more confident with my partner.</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Like</like>
+                          ·
+                          <reply>Reply</reply>
+                          ·
+                          <likes>66</likes>
+                          <date>1 hr</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
 <div class="esconder">
   
@@ -723,33 +714,6 @@ Lo digo porque los componentes únicos de esta fórmula se basan en técnicas an
   <link rel="prerender" href="https://go.centerpag.com/PPU38CQ1FRC?upsell=true"/>
   <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-subids async defer></script>
   
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1318521726735498');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1318521726735498&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-
-  <script>
-  window.pixelId = "68d44e8d76e2e3c8d6954dd9";
-  var a = document.createElement("script");
-  a.setAttribute("async", "");
-  a.setAttribute("defer", "");
-  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-  document.head.appendChild(a);
-</script>
-
 
 
 <script>
@@ -789,44 +753,6 @@ if (event.keyCode == 73) {return false;}
 </script>
 
 
-  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1447812996508477');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1447812996508477&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-
-
-
-
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1018404247015431');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1018404247015431&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
 
 <script
   src="https://cdn.utmify.com.br/scripts/utms/latest.js"
@@ -838,19 +764,3 @@ src="https://www.facebook.com/tr?id=1018404247015431&ev=PageView&noscript=1"
   
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
